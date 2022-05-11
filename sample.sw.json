@@ -1,5 +1,5 @@
 {
-  "id": "expression",
+  "id": "expressions",
   "version": "1.0",
   "name": "Workflow Expression example",
   "constants" : {
@@ -36,18 +36,6 @@
       "name": "squareState",
       "type": "operation",
       "actions": [
-        {
-              "name": "myAction", "functionRef":{
-            "refName": {
-              "refName": "sendQueryNew",
-              "arguments": {
-                "another": "",
-                "query": ""
-              }
-            }
-          
-          },
-        },
         {
           "name": "maxAction",
           "functionRef": {
